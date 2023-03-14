@@ -27,7 +27,7 @@ class Space
 
     }
 }
-//2
+
 class don
 {
     static void Main()
@@ -58,34 +58,34 @@ class don
 
     }
 }
-//3
-
-////List<int> List = new List<int> { 4, 96, -7, 24, -1, 1, -78, 56, 79, -12, 7, -145 };
-////int m = 0;
-//Console.WriteLine("Список:");
-//foreach (var item in List)
-//{
-//    Console.Write(item + " : ");
-//}
-//Console.WriteLine();
-//Console.WriteLine();
-//var newList = from i in List
-//              where i < m
-//              orderby i
-//              select i;
-//Console.Write("Вiдємнi числа : ");
-//foreach (var item in newList)
-//{
-//    Console.Write(item + " : ");
 
 
-//}
-//Console.WriteLine();
-//Console.WriteLine();
-//int count = newList.Count();
-//Console.WriteLine("Кiлькiсть вiємних чисел : " + count);
-//int Sum = newList.Sum();
-//Console.WriteLine("Cyма Вiдємних чисел : " + Sum);
+//List<int> List = new List<int> { 4, 96, -7, 24, -1, 1, -78, 56, 79, -12, 7, -145 };
+//int m = 0;
+Console.WriteLine("Список:");
+foreach (var item in List)
+{
+    Console.Write(item + " : ");
+}
+Console.WriteLine();
+Console.WriteLine();
+var newList = from i in List
+              where i < m
+              orderby i
+              select i;
+Console.Write("Вiдємнi числа : ");
+foreach (var item in newList)
+{
+    Console.Write(item + " : ");
+
+
+}
+Console.WriteLine();
+Console.WriteLine();
+int count = newList.Count();
+Console.WriteLine("Кiлькiсть вiємних чисел : " + count);
+int Sum = newList.Sum();
+Console.WriteLine("Cyма Вiдємних чисел : " + Sum);
 
 
 
